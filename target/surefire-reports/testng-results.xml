@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-03T23:00:12 IST" name="Suite" finished-at="2021-12-03T23:01:16 IST" duration-ms="64193">
+    <groups>
+    </groups>
+    <test started-at="2021-12-03T23:00:12 IST" name="Test" finished-at="2021-12-03T23:01:16 IST" duration-ms="64193">
+      <class name="Assignment.Work.MailLogin2">
+        <test-method signature="ReceiverLogin()[pri:0, instance:Assignment.Work.MailLogin2@3d6f0054]" started-at="2021-12-03T23:00:38 IST" name="ReceiverLogin" finished-at="2021-12-03T23:01:16 IST" duration-ms="37729" status="FAIL">
+          <exception class="java.lang.IncompatibleClassChangeError">
+            <message>
+              <![CDATA[class org.apache.poi.ooxml.extractor.POIXMLTextExtractor has interface org.apache.poi.extractor.POITextExtractor as super class]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IncompatibleClassChangeError: class org.apache.poi.ooxml.extractor.POIXMLTextExtractor has interface org.apache.poi.extractor.POITextExtractor as super class
+at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1010)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:855)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:753)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:676)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:634)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1010)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:855)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:753)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:676)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:634)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+at Assignment.Work.MailLogin2.ReceiverLogin(MailLogin2.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IncompatibleClassChangeError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReceiverLogin -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Assignment.Work.MailLogin2@3d6f0054]" started-at="2021-12-03T23:01:16 IST" name="closebrowser" finished-at="2021-12-03T23:01:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Assignment.Work.MailLogin2 -->
+      <class name="Assignment.Work.MailLogin">
+        <test-method signature="SenderLogin()[pri:0, instance:Assignment.Work.MailLogin@76c3e77a]" started-at="2021-12-03T23:00:12 IST" name="SenderLogin" finished-at="2021-12-03T23:00:38 IST" duration-ms="25765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SenderLogin -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Assignment.Work.MailLogin@76c3e77a]" started-at="2021-12-03T23:01:16 IST" name="closebrowser" finished-at="2021-12-03T23:01:16 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Assignment.Work.MailLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

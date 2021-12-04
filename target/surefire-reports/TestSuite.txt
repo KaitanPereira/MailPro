@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 65.095 s <<< FAILURE! - in TestSuite
+Assignment.Work.MailLogin2.ReceiverLogin  Time elapsed: 37.74 s  <<< FAILURE!
+java.lang.IncompatibleClassChangeError: class org.apache.poi.ooxml.extractor.POIXMLTextExtractor has interface org.apache.poi.extractor.POITextExtractor as super class
+	at Assignment.Work.MailLogin2.ReceiverLogin(MailLogin2.java:36)
+
